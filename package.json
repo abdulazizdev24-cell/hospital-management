@@ -8,10 +8,7 @@
     "start": "next start",
     "lint": "eslint",
     "create-admin": "node scripts/create-admin.mjs",
-    "generate-secret": "node scripts/generate-secret.js",
-    "test": "jest",
-    "test:watch": "jest --watch",
-    "test:coverage": "jest --coverage"
+    "generate-secret": "node scripts/generate-secret.js"
   },
   "dependencies": {
     "bcryptjs": "^3.0.2",
@@ -24,13 +21,9 @@
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
-    "@testing-library/jest-dom": "^6.1.5",
-    "@testing-library/react": "^16.0.1",
     "autoprefixer": "^10.4.20",
     "eslint": "^9",
     "eslint-config-next": "15.5.3",
-    "jest": "^29.7.0",
-    "jest-environment-jsdom": "^29.7.0",
     "postcss": "^8.4.47",
     "tailwindcss": "^3.4.17"
   }
